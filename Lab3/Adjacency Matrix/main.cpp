@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+int adj[100][100];
+
+int main()
+{
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    int node, edge;
+    cin>> node;
+    cin>> edge;
+
+    int n1, n2;
+
+    for(int i = 0; i < edge; i++){
+        cin>>n1>>n2;
+
+    }
+
+    for(int i = 0; i< node; i++){
+        for(int j = 0; j<node; j++){
+            cout<<adj[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}

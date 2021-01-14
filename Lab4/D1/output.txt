@@ -1,0 +1,11 @@
+
+Distance of node: 1 = 2
+Path = 1 <-- 0
+Distance of node: 2 = 3
+Path = 2 <-- 1 <-- 0
+Distance of node: 3 = 8
+Path = 3 <-- 4 <-- 2 <-- 1 <-- 0
+Distance of node: 4 = 6
+Path = 4 <-- 2 <-- 1 <-- 0
+Distance of node: 5 = 9
+Path = 5 <-- 3 <-- 4 <-- 2 <-- 1 <-- 0
